@@ -29,3 +29,11 @@ yarn add -D jest ts-jest @types/jest
 ```
 yarn ts-jest config:init
 ```
+
+### Working on project feature
+
+- add jsdom for mocking localStorage in the tests
+
+```
+yarn add -D jsdom @types/jsdom
+```
