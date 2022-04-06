@@ -155,7 +155,7 @@ jobs:
      - run: yarn build
      - uses: JS-DevTools/npm-publish@v1
        with:
-         token: $
+         token: ${{ secrets.NPM_TOKEN }}
          access: "public"
 ```
 
