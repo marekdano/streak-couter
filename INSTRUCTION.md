@@ -162,3 +162,6 @@ jobs:
 **Note:** This creates a new `GitHub Action` that installs dependencies, runs tests, builds project, and then publishes it to npm (as long as it's a new version) on every push.
 
 Now commit this and push it up. If all goes as planned, it should publish the package to npm.
+
+
+#### This package is live [on npm](https://www.npmjs.com/package/@marekdano/streak-counter).
